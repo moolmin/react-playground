@@ -18,7 +18,16 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+     /* Path alias configuration */
+     "baseUrl": ".",  // Use the project root as the base
+     "paths": {
+       "@/*": ["src/*"],
+       "@assets/*": ["src/assets/*"],
+       "@components/*": ["src/components/*"],
+       "@routes/*": ["src/routes/*"]
+     }
   },
   "include": ["src"]
 }
