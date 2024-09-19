@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* app.scss */
+/* CSS Reset - Normalize Styles Across Browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HTML and Body Styling */
+html {
+  font-size: 16px; /* 기본 폰트 크기 */
+  line-height: 1.5; /* 기본 라인 높이 */
+  font-family: "Arial", sans-serif; /* 기본 폰트 */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* 기본 배경색 */
+  color: #333; /* 기본 텍스트 색상 */
+  font-size: 1rem; /* 폰트 크기 */
+}
+
+/* Global Link Styling */
+a {
+  color: #007bff; /* 링크 색상 */
+  text-decoration: none; /* 기본 링크 스타일 */
+}
+
+a:hover {
+  text-decoration: underline; /* 링크 호버 스타일 */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* 가운데 정렬 */
+  padding: 0 1rem; /* 좌우 여백 */
+}
+
+.text-center {
+  text-align: center; /* 가운데 정렬 클래스 */
+}/*# sourceMappingURL=App.css.map */
