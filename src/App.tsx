@@ -4,7 +4,7 @@ import Layout from './components/layout'
 import SCSS from './routes/scss_practice'
 import MSW from './routes/msw_pratice'
 import Infinite from '@routes/inter_observer_practice'
-import Zustand from '@routes/zudtand_practice'
+import Zustand from '@routes/zustand_practice'
 
 const router = createBrowserRouter([
   {
